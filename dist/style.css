@@ -1,0 +1,25 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+#content {
+    background-image: url("../assets/volkan-vardar-1H30uRC1plc-unsplash.jpg");
+    background-size: 500%;
+    height: 100vh;
+}
+
+.nav {
+    height: 10vh;
+    border: 2px solid red;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 4rem;
+}
